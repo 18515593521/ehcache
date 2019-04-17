@@ -39,4 +39,9 @@ public class TestController {
         return "test6";
     }
 
+    @GetMapping("test7")
+    public String test7(){
+        return "test7";
+    }
+
 }
